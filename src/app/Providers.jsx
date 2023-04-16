@@ -3,7 +3,7 @@
 import { ThemeProvider} from 'next-themes'
 import React from 'react'
 
-export default function Providers({children}) {
+const Providers = ({children}) => {
 
 	return (
 		<ThemeProvider enableSystem={true} attribute="class">
@@ -13,3 +13,5 @@ export default function Providers({children}) {
 		</ThemeProvider>
 	)
 }
+
+export default Providers

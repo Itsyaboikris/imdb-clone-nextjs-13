@@ -15,12 +15,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       	<body>
-			{/* <Providers> */}
+			<Providers>
 				<Header/>
 				<Navbar/>
 
 				{children}
-			{/* </Providers> */}
+			</Providers>
 		</body>
     </html>
   )
