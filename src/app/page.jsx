@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 const API_KEY = process.env.API_KEY
 
+export const dynamic = "force-dynamic";
 export default async function Home({searchParams}) {
 
 	const genre = searchParams.genre || "fetchTrending"
